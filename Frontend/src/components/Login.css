@@ -1,0 +1,84 @@
+/* Login.css */
+
+.auth-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    border: 2px solid #537ce6; /* Green border for login */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    /* height: 40px; */
+    border: none;
+    border-radius: 12px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #537ce6; /* Green border for inputs */
+    border-radius: 6px;
+    outline: none;
+    margin-left: 30px;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  input:focus {
+    border-color: #537ce6; /* Darker green when focused */
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #537ce6; /* Green background for button */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0d245f; /* Darker green on hover */
+  }
+  
+  .error-message {
+    color: #dc3545; /* Red color for error messages */
+    margin-top: 10px;
+    text-align: center;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    margin-right: 25px;
+    font-size: 16px;
+  }
+  

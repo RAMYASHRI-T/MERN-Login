@@ -1,0 +1,31 @@
+/* Home.css */
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  h2 {
+    color: #333;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #537ce6; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0c2a75; 
+  }
+  
